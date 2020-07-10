@@ -1,0 +1,1777 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Component class="javax.swing.ButtonGroup" name="Goriva">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="OsnovnoZavarovanje">
+    </Component>
+    <Component class="javax.swing.ButtonGroup" name="KaskoZavarovanje">
+    </Component>
+    <Container class="javax.swing.JFrame" name="jFrame1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="400" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="300" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Component class="javax.swing.JOptionPane" name="jOptionPane1">
+    </Component>
+    <Component class="javax.swing.JFileChooser" name="jfc">
+    </Component>
+    <Component class="javax.swing.JTextField" name="CelotaSave">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jTextField2"/>
+      </Properties>
+    </Component>
+    <Menu class="javax.swing.JMenuBar" name="jMenuBar1">
+      <SubComponents>
+        <Menu class="javax.swing.JMenu" name="jMenu1">
+          <Properties>
+            <Property name="mnemonic" type="int" value="68"/>
+            <Property name="text" type="java.lang.String" value="Datoteka"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ubuntu" size="15" style="0"/>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+S"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="83"/>
+                <Property name="text" type="java.lang.String" value="Shrani"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem1ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="jMenu2">
+          <Properties>
+            <Property name="mnemonic" type="int" value="80"/>
+            <Property name="text" type="java.lang.String" value="Popravi"/>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ubuntu" size="15" style="0"/>
+            </Property>
+          </Properties>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="PonastaviVnose">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+P"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="80"/>
+                <Property name="text" type="java.lang.String" value="Ponastavi Vnose"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PonastaviVnoseActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+        <Menu class="javax.swing.JMenu" name="Pomoc">
+          <Properties>
+            <Property name="mnemonic" type="int" value="80"/>
+            <Property name="text" type="java.lang.String" value="Pomo&#x10d;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PomocActionPerformed"/>
+          </Events>
+          <SubComponents>
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+              <Properties>
+                <Property name="accelerator" type="javax.swing.KeyStroke" editor="org.netbeans.modules.form.editors.KeyStrokeEditor">
+                  <KeyStroke key="Ctrl+K"/>
+                </Property>
+                <Property name="mnemonic" type="int" value="75"/>
+                <Property name="text" type="java.lang.String" value="Kontakt"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem2ActionPerformed"/>
+              </Events>
+            </MenuItem>
+          </SubComponents>
+        </Menu>
+      </SubComponents>
+    </Menu>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="menuBar" type="java.lang.String" value="jMenuBar1"/>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+    <AuxValue name="designerSize" type="java.awt.Dimension" value="-84,-19,0,5,115,114,0,18,106,97,118,97,46,97,119,116,46,68,105,109,101,110,115,105,111,110,65,-114,-39,-41,-84,95,68,20,2,0,2,73,0,6,104,101,105,103,104,116,73,0,5,119,105,100,116,104,120,112,0,0,3,-111,0,0,3,115"/>
+  </AuxValues>
+
+  <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="Panela_Zavarovanec">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font component="Panela_Zavarovanec" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="North"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBoxLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="Prosta">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+              <FontInfo relative="true">
+                <Font component="Prosta" property="font" relativeSize="true" size="0"/>
+              </FontInfo>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="PodatkiOZavarovancu" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="PodatkiOZavarovancu" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="PodatkiOZavarovancu">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Podatki O Zavarovancu"/>
+                  </Border>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="ImeLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="PriimekLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="ImeField" max="32767" attributes="0"/>
+                                      <Component id="PriimekField" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="DatumRojLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                                  <Component id="DRdan" min="-2" pref="81" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                                  <Component id="DRmesec" min="-2" pref="134" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="DRleto" min="-2" pref="81" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="IzkusnjeLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="IzkusnjeCombo" min="-2" pref="234" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="UlicaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="HisnaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="KrajLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="PostaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="KrajField" alignment="0" max="32767" attributes="0"/>
+                              <Component id="HisnaField" alignment="0" pref="296" max="32767" attributes="0"/>
+                              <Component id="UlicaField" alignment="1" max="32767" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="PostaSpinner" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="UlicaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="UlicaField" alignment="3" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="HisnaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="HisnaField" alignment="3" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="KrajLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="KrajField" alignment="3" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="PostaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PostaSpinner" alignment="3" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="ImeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="ImeField" alignment="3" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="PriimekLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="PriimekField" alignment="3" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="DatumRojLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="DRdan" alignment="3" max="32767" attributes="0"/>
+                                      <Component id="DRmesec" alignment="3" max="32767" attributes="0"/>
+                                      <Component id="DRleto" alignment="3" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="IzkusnjeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="IzkusnjeCombo" alignment="3" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="ImeLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Ime:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="ImeField">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Vpi&#x161;ite Ime"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="fgime"/>
+                    <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ImeFieldFocusLost"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="PriimekLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Priimek:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="PriimekField">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Vpi&#x161;ite Priimek"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="fgpriimek"/>
+                    <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="PriimekFieldFocusLost"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="DatumRojLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Datum Rojstva:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="UlicaLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Ulica:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="UlicaField">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Vpi&#x161;ite Ulico"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="fgulica"/>
+                    <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="UlicaFieldFocusLost"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="APulica"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="HisnaLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Hi&#x161;na &#x160;t:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="HisnaField">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Vpi&#x161;ite Hi&#x161;no &#x160;tevilko"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="fghisna"/>
+                    <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="HisnaFieldFocusLost"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="KrajLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Kraj:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="KrajField">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Vpi&#x161;ite Kraj"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="fgkraj"/>
+                    <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="KrajFieldFocusLost"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="KrajFieldActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="PostaLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Po&#x161;ta:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="IzkusnjeLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Izku&#x161;nje:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="IzkusnjeCombo">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="2">
+                        <StringItem index="0" value="Izku&#x161;en voznik"/>
+                        <StringItem index="1" value="Mladi voznik"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="DRdan">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="31">
+                        <StringItem index="0" value="1"/>
+                        <StringItem index="1" value="2"/>
+                        <StringItem index="2" value="3"/>
+                        <StringItem index="3" value="4"/>
+                        <StringItem index="4" value="5"/>
+                        <StringItem index="5" value="6"/>
+                        <StringItem index="6" value="7"/>
+                        <StringItem index="7" value="8"/>
+                        <StringItem index="8" value="9"/>
+                        <StringItem index="9" value="10"/>
+                        <StringItem index="10" value="11"/>
+                        <StringItem index="11" value="12"/>
+                        <StringItem index="12" value="13"/>
+                        <StringItem index="13" value="14"/>
+                        <StringItem index="14" value="15"/>
+                        <StringItem index="15" value="16"/>
+                        <StringItem index="16" value="17"/>
+                        <StringItem index="17" value="18"/>
+                        <StringItem index="18" value="19"/>
+                        <StringItem index="19" value="20"/>
+                        <StringItem index="20" value="21"/>
+                        <StringItem index="21" value="22"/>
+                        <StringItem index="22" value="23"/>
+                        <StringItem index="23" value="24"/>
+                        <StringItem index="24" value="25"/>
+                        <StringItem index="25" value="26"/>
+                        <StringItem index="26" value="27"/>
+                        <StringItem index="27" value="28"/>
+                        <StringItem index="28" value="29"/>
+                        <StringItem index="29" value="30"/>
+                        <StringItem index="30" value="31"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="DRmesec">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="12">
+                        <StringItem index="0" value="Januar"/>
+                        <StringItem index="1" value="Februar"/>
+                        <StringItem index="2" value="Marec "/>
+                        <StringItem index="3" value="April"/>
+                        <StringItem index="4" value="Maj"/>
+                        <StringItem index="5" value="Junij"/>
+                        <StringItem index="6" value="Julij"/>
+                        <StringItem index="7" value="Avgust"/>
+                        <StringItem index="8" value="September"/>
+                        <StringItem index="9" value="Oktober"/>
+                        <StringItem index="10" value="November"/>
+                        <StringItem index="11" value="December"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DRmesecActionPerformed"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="DRleto">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="120">
+                        <StringItem index="0" value="1900"/>
+                        <StringItem index="1" value="1901"/>
+                        <StringItem index="2" value="1902"/>
+                        <StringItem index="3" value="1903"/>
+                        <StringItem index="4" value="1904"/>
+                        <StringItem index="5" value="1905"/>
+                        <StringItem index="6" value="1906"/>
+                        <StringItem index="7" value="1907"/>
+                        <StringItem index="8" value="1908"/>
+                        <StringItem index="9" value="1909"/>
+                        <StringItem index="10" value="1910"/>
+                        <StringItem index="11" value="1911"/>
+                        <StringItem index="12" value="1912"/>
+                        <StringItem index="13" value="1913"/>
+                        <StringItem index="14" value="1914"/>
+                        <StringItem index="15" value="1915"/>
+                        <StringItem index="16" value="1916"/>
+                        <StringItem index="17" value="1917"/>
+                        <StringItem index="18" value="1918"/>
+                        <StringItem index="19" value="1919"/>
+                        <StringItem index="20" value="1920"/>
+                        <StringItem index="21" value="1921"/>
+                        <StringItem index="22" value="1922"/>
+                        <StringItem index="23" value="1923"/>
+                        <StringItem index="24" value="1924"/>
+                        <StringItem index="25" value="1925"/>
+                        <StringItem index="26" value="1926"/>
+                        <StringItem index="27" value="1927"/>
+                        <StringItem index="28" value="1928"/>
+                        <StringItem index="29" value="1929"/>
+                        <StringItem index="30" value="1930"/>
+                        <StringItem index="31" value="1931"/>
+                        <StringItem index="32" value="1932"/>
+                        <StringItem index="33" value="1933"/>
+                        <StringItem index="34" value="1934"/>
+                        <StringItem index="35" value="1935"/>
+                        <StringItem index="36" value="1936"/>
+                        <StringItem index="37" value="1937"/>
+                        <StringItem index="38" value="1938"/>
+                        <StringItem index="39" value="1939"/>
+                        <StringItem index="40" value="1940"/>
+                        <StringItem index="41" value="1941"/>
+                        <StringItem index="42" value="1942"/>
+                        <StringItem index="43" value="1943"/>
+                        <StringItem index="44" value="1944"/>
+                        <StringItem index="45" value="1945"/>
+                        <StringItem index="46" value="1946"/>
+                        <StringItem index="47" value="1947"/>
+                        <StringItem index="48" value="1948"/>
+                        <StringItem index="49" value="1949"/>
+                        <StringItem index="50" value="1950"/>
+                        <StringItem index="51" value="1951"/>
+                        <StringItem index="52" value="1952"/>
+                        <StringItem index="53" value="1953"/>
+                        <StringItem index="54" value="1954"/>
+                        <StringItem index="55" value="1955"/>
+                        <StringItem index="56" value="1956"/>
+                        <StringItem index="57" value="1957"/>
+                        <StringItem index="58" value="1958"/>
+                        <StringItem index="59" value="1959"/>
+                        <StringItem index="60" value="1960"/>
+                        <StringItem index="61" value="1961"/>
+                        <StringItem index="62" value="1962"/>
+                        <StringItem index="63" value="1963"/>
+                        <StringItem index="64" value="1964"/>
+                        <StringItem index="65" value="1965"/>
+                        <StringItem index="66" value="1966"/>
+                        <StringItem index="67" value="1967"/>
+                        <StringItem index="68" value="1968"/>
+                        <StringItem index="69" value="1969"/>
+                        <StringItem index="70" value="1970"/>
+                        <StringItem index="71" value="1971"/>
+                        <StringItem index="72" value="1972"/>
+                        <StringItem index="73" value="1973"/>
+                        <StringItem index="74" value="1974"/>
+                        <StringItem index="75" value="1975"/>
+                        <StringItem index="76" value="1976"/>
+                        <StringItem index="77" value="1977"/>
+                        <StringItem index="78" value="1978"/>
+                        <StringItem index="79" value="1979"/>
+                        <StringItem index="80" value="1980"/>
+                        <StringItem index="81" value="1981"/>
+                        <StringItem index="82" value="1982"/>
+                        <StringItem index="83" value="1983"/>
+                        <StringItem index="84" value="1984"/>
+                        <StringItem index="85" value="1985"/>
+                        <StringItem index="86" value="1986"/>
+                        <StringItem index="87" value="1987"/>
+                        <StringItem index="88" value="1988"/>
+                        <StringItem index="89" value="1989"/>
+                        <StringItem index="90" value="1990"/>
+                        <StringItem index="91" value="1991"/>
+                        <StringItem index="92" value="1992"/>
+                        <StringItem index="93" value="1993"/>
+                        <StringItem index="94" value="1994"/>
+                        <StringItem index="95" value="1995"/>
+                        <StringItem index="96" value="1996"/>
+                        <StringItem index="97" value="1997"/>
+                        <StringItem index="98" value="1998"/>
+                        <StringItem index="99" value="1999"/>
+                        <StringItem index="100" value="2000"/>
+                        <StringItem index="101" value="2001"/>
+                        <StringItem index="102" value="2002"/>
+                        <StringItem index="103" value="2003"/>
+                        <StringItem index="104" value="2004"/>
+                        <StringItem index="105" value="2005"/>
+                        <StringItem index="106" value="2006"/>
+                        <StringItem index="107" value="2007"/>
+                        <StringItem index="108" value="2008"/>
+                        <StringItem index="109" value="2009"/>
+                        <StringItem index="110" value="2010"/>
+                        <StringItem index="111" value="2011"/>
+                        <StringItem index="112" value="2012"/>
+                        <StringItem index="113" value="2013"/>
+                        <StringItem index="114" value="2014"/>
+                        <StringItem index="115" value="2015"/>
+                        <StringItem index="116" value="2016"/>
+                        <StringItem index="117" value="2017"/>
+                        <StringItem index="118" value="2018"/>
+                        <StringItem index="119" value="2019"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JSpinner" name="PostaSpinner">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                      <SpinnerModel initial="1000" maximum="9999" minimum="1000" numberType="java.lang.Short" stepSize="1" type="number"/>
+                    </Property>
+                    <Property name="toolTipText" type="java.lang.String" value=""/>
+                    <Property name="editor" type="javax.swing.JComponent" editor="org.netbeans.modules.form.editors.SpinnerEditorEditor">
+                      <SpinnerEditor format="0000" type="3"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="Panela_Vozilo">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font component="Panela_Vozilo" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Center"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="Prosta1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+              <FontInfo relative="true">
+                <Font component="Prosta1" property="font" relativeSize="true" size="0"/>
+              </FontInfo>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="Center"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="PodatkiOZavarovancu1" max="32767" attributes="0"/>
+                          <Component id="PodatkiORegistraciji" alignment="0" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="PodatkiOZavarovancu1" max="32767" attributes="0"/>
+                      <EmptySpace pref="10" max="32767" attributes="0"/>
+                      <Component id="PodatkiORegistraciji" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="PodatkiOZavarovancu1">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Podatki O Vozilu"/>
+                  </Border>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+                  <FontInfo relative="true">
+                    <Font component="PodatkiOZavarovancu1" property="font" relativeSize="true" size="0"/>
+                  </FontInfo>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="OznakaLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="ZnamkaField" alignment="0" pref="351" max="32767" attributes="0"/>
+                                      <Component id="OznakaField" alignment="0" pref="351" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="MocLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="MocSpinner" min="-2" pref="116" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" attributes="0">
+                                  <Component id="ZnamkaLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="VrstaVozilaLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="VrstaVozilaCombo" min="-2" pref="247" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="separate" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="SedeziLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="KubLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="KubSpinner" max="32767" attributes="0"/>
+                                      <Component id="SedeziSpinner" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="BarvaLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="BarvaComboBox" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="GorivoLabel" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                                  <Component id="BencinRadio" pref="78" max="32767" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                                  <Component id="NaftaRadio" pref="72" max="32767" attributes="0"/>
+                                  <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                                  <Component id="ElektrikaRadio" pref="91" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                          <Component id="PlinRadio" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ZnamkaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="ZnamkaField" alignment="3" max="32767" attributes="0"/>
+                              <Component id="GorivoLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="BencinRadio" alignment="3" max="32767" attributes="0"/>
+                              <Component id="NaftaRadio" alignment="3" max="32767" attributes="0"/>
+                              <Component id="ElektrikaRadio" alignment="3" max="32767" attributes="0"/>
+                              <Component id="PlinRadio" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="OznakaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="OznakaField" alignment="3" max="32767" attributes="0"/>
+                              <Component id="KubLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="KubSpinner" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="SedeziLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="SedeziSpinner" alignment="3" max="32767" attributes="0"/>
+                              <Component id="MocSpinner" alignment="3" max="32767" attributes="0"/>
+                              <Component id="MocLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                  <Component id="BarvaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="BarvaComboBox" alignment="3" max="32767" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="VrstaVozilaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="VrstaVozilaCombo" alignment="3" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="ZnamkaLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Znamka:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="ZnamkaField">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Vpi&#x161;ite Znamko"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ZnamkaFieldfgime"/>
+                    <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="ZnamkaFieldFocusLost"/>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ZnamkaFieldActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="OznakaLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Oznaka:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="OznakaField">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Vpi&#x161;ite Oznako"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="OznakaFieldfgpriimek"/>
+                    <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="OznakaFieldFocusLost"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="MocLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Mo&#x10d; (kw):"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSpinner" name="MocSpinner">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                      <SpinnerModel initial="1" minimum="1" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="VrstaVozilaLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Vrsta Vozila:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="VrstaVozilaCombo">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="5">
+                        <StringItem index="0" value="Osebni Avto"/>
+                        <StringItem index="1" value="Motor"/>
+                        <StringItem index="2" value="Traktor"/>
+                        <StringItem index="3" value="Tovornjak"/>
+                        <StringItem index="4" value="Avtobus"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="GorivoLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Gorivo:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="BencinRadio">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="Goriva"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Bencin"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="NaftaRadio">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="Goriva"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Nafta"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="ElektrikaRadio">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="Goriva"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Elektrika"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="PlinRadio">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="Goriva"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Plin"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="PlinRadioActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="KubLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Prostornina V Kubi&#x10d;nih Metrih:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSpinner" name="KubSpinner">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                      <SpinnerModel initial="1" minimum="1" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="BarvaLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Barva:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="SedeziLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="&#x160;tevilo Sede&#x17e;ev:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JSpinner" name="SedeziSpinner">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+                      <SpinnerModel initial="1" minimum="1" numberType="java.lang.Integer" stepSize="1" type="number"/>
+                    </Property>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="BarvaComboBox">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="9">
+                        <StringItem index="0" value="Bela"/>
+                        <StringItem index="1" value="Modra"/>
+                        <StringItem index="2" value="Rde&#x10d;a"/>
+                        <StringItem index="3" value="Rumena"/>
+                        <StringItem index="4" value="Siva"/>
+                        <StringItem index="5" value="Srebrna"/>
+                        <StringItem index="6" value="Vijoli&#x10d;na"/>
+                        <StringItem index="7" value="Zelena"/>
+                        <StringItem index="8" value="&#x10c;rna"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+              </SubComponents>
+            </Container>
+            <Container class="javax.swing.JPanel" name="PodatkiORegistraciji">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Podatki O Registraciji"/>
+                  </Border>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+                  <FontInfo relative="true">
+                    <Font component="PodatkiORegistraciji" property="font" relativeSize="true" size="0"/>
+                  </FontInfo>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="KrajRegistracijeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="RegOznacbaLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="DatumRegistracijeLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="KrajRegistracijeField" max="32767" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="DPdan" pref="78" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <Component id="DPmesec" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <Component id="DPleto" max="32767" attributes="0"/>
+                              </Group>
+                              <Component id="RegOznacbaField" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="KrajRegistracijeNapaka" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="360" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="DPdan" alignment="3" max="32767" attributes="0"/>
+                              <Component id="DPmesec" alignment="3" max="32767" attributes="0"/>
+                              <Component id="DPleto" alignment="3" max="32767" attributes="0"/>
+                              <Component id="DatumRegistracijeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="KrajRegistracijeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="KrajRegistracijeField" alignment="3" max="32767" attributes="0"/>
+                              <Component id="KrajRegistracijeNapaka" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="RegOznacbaLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="RegOznacbaField" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="DatumRegistracijeLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Datum Prve Registracije:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="KrajRegistracijeLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Kraj Prve Registracije:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="KrajRegistracijeField">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Vpi&#x161;ite Kraj Prve Registracije"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="KrajRegistracijeFieldFocusGained"/>
+                    <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="KrajRegistracijeFieldFocusLost"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="RegOznacbaLabel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Registracijska ozna&#x10d;ba:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JTextField" name="RegOznacbaField">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Vpi&#x161;ite Registracijsko Ozna&#x10d;bo"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="focusGained" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="RegOznacbaFieldfgime"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="DPdan">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="31">
+                        <StringItem index="0" value="1"/>
+                        <StringItem index="1" value="2"/>
+                        <StringItem index="2" value="3"/>
+                        <StringItem index="3" value="4"/>
+                        <StringItem index="4" value="5"/>
+                        <StringItem index="5" value="6"/>
+                        <StringItem index="6" value="7"/>
+                        <StringItem index="7" value="8"/>
+                        <StringItem index="8" value="9"/>
+                        <StringItem index="9" value="10"/>
+                        <StringItem index="10" value="11"/>
+                        <StringItem index="11" value="12"/>
+                        <StringItem index="12" value="13"/>
+                        <StringItem index="13" value="14"/>
+                        <StringItem index="14" value="15"/>
+                        <StringItem index="15" value="16"/>
+                        <StringItem index="16" value="17"/>
+                        <StringItem index="17" value="18"/>
+                        <StringItem index="18" value="19"/>
+                        <StringItem index="19" value="20"/>
+                        <StringItem index="20" value="21"/>
+                        <StringItem index="21" value="22"/>
+                        <StringItem index="22" value="23"/>
+                        <StringItem index="23" value="24"/>
+                        <StringItem index="24" value="25"/>
+                        <StringItem index="25" value="26"/>
+                        <StringItem index="26" value="27"/>
+                        <StringItem index="27" value="28"/>
+                        <StringItem index="28" value="29"/>
+                        <StringItem index="29" value="30"/>
+                        <StringItem index="30" value="31"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="DPmesec">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="12">
+                        <StringItem index="0" value="Januar"/>
+                        <StringItem index="1" value="Februar"/>
+                        <StringItem index="2" value="Marec "/>
+                        <StringItem index="3" value="April"/>
+                        <StringItem index="4" value="Maj"/>
+                        <StringItem index="5" value="Junij"/>
+                        <StringItem index="6" value="Julij"/>
+                        <StringItem index="7" value="Avgust"/>
+                        <StringItem index="8" value="September"/>
+                        <StringItem index="9" value="Oktober"/>
+                        <StringItem index="10" value="November"/>
+                        <StringItem index="11" value="December"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="DPmesecActionPerformed"/>
+                  </Events>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JComboBox" name="DPleto">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                      <StringArray count="120">
+                        <StringItem index="0" value="1900"/>
+                        <StringItem index="1" value="1901"/>
+                        <StringItem index="2" value="1902"/>
+                        <StringItem index="3" value="1903"/>
+                        <StringItem index="4" value="1904"/>
+                        <StringItem index="5" value="1905"/>
+                        <StringItem index="6" value="1906"/>
+                        <StringItem index="7" value="1907"/>
+                        <StringItem index="8" value="1908"/>
+                        <StringItem index="9" value="1909"/>
+                        <StringItem index="10" value="1910"/>
+                        <StringItem index="11" value="1911"/>
+                        <StringItem index="12" value="1912"/>
+                        <StringItem index="13" value="1913"/>
+                        <StringItem index="14" value="1914"/>
+                        <StringItem index="15" value="1915"/>
+                        <StringItem index="16" value="1916"/>
+                        <StringItem index="17" value="1917"/>
+                        <StringItem index="18" value="1918"/>
+                        <StringItem index="19" value="1919"/>
+                        <StringItem index="20" value="1920"/>
+                        <StringItem index="21" value="1921"/>
+                        <StringItem index="22" value="1922"/>
+                        <StringItem index="23" value="1923"/>
+                        <StringItem index="24" value="1924"/>
+                        <StringItem index="25" value="1925"/>
+                        <StringItem index="26" value="1926"/>
+                        <StringItem index="27" value="1927"/>
+                        <StringItem index="28" value="1928"/>
+                        <StringItem index="29" value="1929"/>
+                        <StringItem index="30" value="1930"/>
+                        <StringItem index="31" value="1931"/>
+                        <StringItem index="32" value="1932"/>
+                        <StringItem index="33" value="1933"/>
+                        <StringItem index="34" value="1934"/>
+                        <StringItem index="35" value="1935"/>
+                        <StringItem index="36" value="1936"/>
+                        <StringItem index="37" value="1937"/>
+                        <StringItem index="38" value="1938"/>
+                        <StringItem index="39" value="1939"/>
+                        <StringItem index="40" value="1940"/>
+                        <StringItem index="41" value="1941"/>
+                        <StringItem index="42" value="1942"/>
+                        <StringItem index="43" value="1943"/>
+                        <StringItem index="44" value="1944"/>
+                        <StringItem index="45" value="1945"/>
+                        <StringItem index="46" value="1946"/>
+                        <StringItem index="47" value="1947"/>
+                        <StringItem index="48" value="1948"/>
+                        <StringItem index="49" value="1949"/>
+                        <StringItem index="50" value="1950"/>
+                        <StringItem index="51" value="1951"/>
+                        <StringItem index="52" value="1952"/>
+                        <StringItem index="53" value="1953"/>
+                        <StringItem index="54" value="1954"/>
+                        <StringItem index="55" value="1955"/>
+                        <StringItem index="56" value="1956"/>
+                        <StringItem index="57" value="1957"/>
+                        <StringItem index="58" value="1958"/>
+                        <StringItem index="59" value="1959"/>
+                        <StringItem index="60" value="1960"/>
+                        <StringItem index="61" value="1961"/>
+                        <StringItem index="62" value="1962"/>
+                        <StringItem index="63" value="1963"/>
+                        <StringItem index="64" value="1964"/>
+                        <StringItem index="65" value="1965"/>
+                        <StringItem index="66" value="1966"/>
+                        <StringItem index="67" value="1967"/>
+                        <StringItem index="68" value="1968"/>
+                        <StringItem index="69" value="1969"/>
+                        <StringItem index="70" value="1970"/>
+                        <StringItem index="71" value="1971"/>
+                        <StringItem index="72" value="1972"/>
+                        <StringItem index="73" value="1973"/>
+                        <StringItem index="74" value="1974"/>
+                        <StringItem index="75" value="1975"/>
+                        <StringItem index="76" value="1976"/>
+                        <StringItem index="77" value="1977"/>
+                        <StringItem index="78" value="1978"/>
+                        <StringItem index="79" value="1979"/>
+                        <StringItem index="80" value="1980"/>
+                        <StringItem index="81" value="1981"/>
+                        <StringItem index="82" value="1982"/>
+                        <StringItem index="83" value="1983"/>
+                        <StringItem index="84" value="1984"/>
+                        <StringItem index="85" value="1985"/>
+                        <StringItem index="86" value="1986"/>
+                        <StringItem index="87" value="1987"/>
+                        <StringItem index="88" value="1988"/>
+                        <StringItem index="89" value="1989"/>
+                        <StringItem index="90" value="1990"/>
+                        <StringItem index="91" value="1991"/>
+                        <StringItem index="92" value="1992"/>
+                        <StringItem index="93" value="1993"/>
+                        <StringItem index="94" value="1994"/>
+                        <StringItem index="95" value="1995"/>
+                        <StringItem index="96" value="1996"/>
+                        <StringItem index="97" value="1997"/>
+                        <StringItem index="98" value="1998"/>
+                        <StringItem index="99" value="1999"/>
+                        <StringItem index="100" value="2000"/>
+                        <StringItem index="101" value="2001"/>
+                        <StringItem index="102" value="2002"/>
+                        <StringItem index="103" value="2003"/>
+                        <StringItem index="104" value="2004"/>
+                        <StringItem index="105" value="2005"/>
+                        <StringItem index="106" value="2006"/>
+                        <StringItem index="107" value="2007"/>
+                        <StringItem index="108" value="2008"/>
+                        <StringItem index="109" value="2009"/>
+                        <StringItem index="110" value="2010"/>
+                        <StringItem index="111" value="2011"/>
+                        <StringItem index="112" value="2012"/>
+                        <StringItem index="113" value="2013"/>
+                        <StringItem index="114" value="2014"/>
+                        <StringItem index="115" value="2015"/>
+                        <StringItem index="116" value="2016"/>
+                        <StringItem index="117" value="2017"/>
+                        <StringItem index="118" value="2018"/>
+                        <StringItem index="119" value="2019"/>
+                      </StringArray>
+                    </Property>
+                  </Properties>
+                  <AuxValues>
+                    <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+                  </AuxValues>
+                </Component>
+                <Component class="javax.swing.JLabel" name="KrajRegistracijeNapaka">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="Panela_Zavarovanje">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+          <FontInfo relative="true">
+            <Font component="Panela_Zavarovanje" property="font" relativeSize="true" size="0"/>
+          </FontInfo>
+        </Property>
+      </Properties>
+      <Constraints>
+        <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+          <BorderConstraints direction="Last"/>
+        </Constraint>
+      </Constraints>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="status">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Ubuntu" size="15" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Status: Pripravljeno za vnos podatkov"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="South"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JPanel" name="Prosta2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.modules.form.editors2.FontEditor">
+              <FontInfo relative="true">
+                <Font component="Prosta2" property="font" relativeSize="true" size="0"/>
+              </FontInfo>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout" value="org.netbeans.modules.form.compat2.layouts.DesignBorderLayout$BorderConstraintsDescription">
+              <BorderConstraints direction="Center"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="PodatkiOZavarovanju" max="32767" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="PodatkiOZavarovanju" max="32767" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JPanel" name="PodatkiOZavarovanju">
+              <Properties>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+                    <TitledBorder title="Podatki O Zavarovanju"/>
+                  </Border>
+                </Property>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Ubuntu" size="15" style="0"/>
+                </Property>
+              </Properties>
+
+              <Layout>
+                <DimensionLayout dim="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="ZnamkaLabel2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <Component id="AO" max="32767" attributes="0"/>
+                                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                  <Component id="AOplus" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="142" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="MocLabel2" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" max="-2" attributes="0"/>
+                                  <Component id="Polnozav" max="32767" attributes="0"/>
+                                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Franzav" max="32767" attributes="0"/>
+                                  <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                                  <Component id="Brezzav" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="ZToci" max="32767" attributes="0"/>
+                                  <EmptySpace min="240" pref="240" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="ZStekel" max="32767" attributes="0"/>
+                                          <EmptySpace min="47" pref="47" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="ZTretja" alignment="0" max="32767" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="ZGum" max="32767" attributes="0"/>
+                                          <EmptySpace min="59" pref="59" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="ZKraji" max="32767" attributes="0"/>
+                                          <EmptySpace min="24" pref="24" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="ZPotn" max="32767" attributes="0"/>
+                                          <EmptySpace min="29" pref="29" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="ZPark" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="421" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+                <DimensionLayout dim="1">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ZnamkaLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="AO" alignment="3" max="32767" attributes="0"/>
+                              <Component id="AOplus" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="MocLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Polnozav" alignment="3" max="32767" attributes="0"/>
+                              <Component id="Franzav" alignment="3" max="32767" attributes="0"/>
+                              <Component id="Brezzav" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ZStekel" alignment="3" max="32767" attributes="0"/>
+                              <Component id="ZPark" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ZTretja" alignment="3" max="32767" attributes="0"/>
+                              <Component id="ZPotn" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="ZGum" alignment="3" max="32767" attributes="0"/>
+                              <Component id="ZKraji" alignment="3" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="unrelated" min="-2" max="-2" attributes="0"/>
+                          <Component id="ZToci" max="32767" attributes="0"/>
+                          <EmptySpace min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                </DimensionLayout>
+              </Layout>
+              <SubComponents>
+                <Component class="javax.swing.JLabel" name="ZnamkaLabel2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Osnovno Zavarovanje:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JLabel" name="MocLabel2">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Kasko zavarovanje:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="AO">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="OsnovnoZavarovanje"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="AO"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AOActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="AOplus">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="OsnovnoZavarovanje"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="AO+"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="AOplusActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="Polnozav">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="KaskoZavarovanje"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Polno"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="Franzav">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="KaskoZavarovanje"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Odbita Fran&#x161;iza"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="FranzavActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JRadioButton" name="Brezzav">
+                  <Properties>
+                    <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
+                      <ComponentRef name="KaskoZavarovanje"/>
+                    </Property>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Brez"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="BrezzavActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JLabel" name="jLabel1">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Dodatno Zavarovanje:"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="ZStekel">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Zavarovanje Stekel"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="ZPark">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Zavarovanje Na Parkiri&#x161;&#x10d;u"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ZParkActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="ZTretja">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Zavarovanje Tretje Osebe"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ZTretjaActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="ZPotn">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Zavarovanje Potnikov"/>
+                  </Properties>
+                  <Events>
+                    <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ZPotnActionPerformed"/>
+                  </Events>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="ZGum">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Zavarovanje Gum"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="ZKraji">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Zavarovanje Proti Kraji"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JCheckBox" name="ZToci">
+                  <Properties>
+                    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                      <Font name="Ubuntu" size="15" style="0"/>
+                    </Property>
+                    <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                      <Color blue="ff" green="0" red="0" type="rgb"/>
+                    </Property>
+                    <Property name="text" type="java.lang.String" value="Zavarovanje Proti To&#x10d;i"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
